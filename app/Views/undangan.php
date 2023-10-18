@@ -44,6 +44,12 @@
 					<!-- <div class="uk-card uk-card-default uk-card-hover uk-card-body"> -->
 						<div class="uk-h4 uk-margin-remove-bottom uk-text-center">Kepada:</div>
 						<div class="kepada uk-margin-remove-top uk-text-bold uk-text-center">Dismas Banar Purnandi</div>
+						<div class="uk-text-center">
+							<button class="uk-button uk-button-primary" type="button" uk-toggle="target: #cover; animation: uk-animation-slide-top; duration: 500;" style="border-radius: 5px;" id="BGMusic" onclick="playPause()">
+								<audio src="music/bg.mp3" autoplay loop></audio>
+								Buka Undangan
+							</button>
+						</div>
 					<!-- </div> -->
 				</div>
 			</div>
@@ -86,17 +92,32 @@
 				</div>
 			</div>
 		</div>
+		<div class="uk-position-small uk-position-bottom-left uk-overlay">
+			<a class="uk-icon-button" uk-icon="play-circle" id="BGMusic" onClick="playPause()"></a>
+		</div>
 		<script>
-			var cover = document.getElementById('cover');
-			cover.addEventListener('wheel', closeCover);
-			cover.addEventListener('touchmove', closeCover);
-			function closeCover() {
-				UIkit.toggle(cover, {
-					animation: 'uk-animation-slide-top',
-					duration: 500
-				});
-				UIkit.toggle(cover).toggle();
-			};
+			// var cover = document.getElementById('cover');
+			// cover.addEventListener('wheel', closeCover);
+			// cover.addEventListener('touchmove', closeCover);
+			// function closeCover() {
+			// 	UIkit.toggle(cover, {
+			// 		animation: 'uk-animation-slide-top',
+			// 		duration: 500
+			// 	});
+			// 	UIkit.toggle(cover).toggle();
+			// };
+
+			var aud = document.getElementById("BGMusic").children[0];
+			var isPlaying = false;
+			aud.pause();
+			function playPause() {
+				if (isPlaying) {
+					aud.pause();
+				} else {
+					aud.play();
+				}
+				isPlaying = !isPlaying;
+			}
 		</script>
 	</body>
 </html>
