@@ -28,10 +28,75 @@
 		<link rel="stylesheet" href="css/theme.css" />		
 		<script src="js/core.min.js"></script>		
 		<script src="js/uikit.min.js"></script>
-		<script src="js/uikit-icons.min.js" defer></script>
-		<script src="js/theme.js" defer></script>
+		<script src="js/uikit-icons.min.js"></script>
+		<script src="js/theme.js"></script>
 	</head>
-	<body class="uk-width-1-1 uk-inline">
-		<div class="uk-width-1-1 uk-background-primary" uk-height-viewport></div>
+	<body>
+		<div class="uk-width-1-1 uk-inline">
+			<div id="cover" class="uk-width-1-1 uk-background-primary tm-cover uk-inline" uk-height-viewport>
+				<div class="uk-position-large uk-position-top-center uk-text-center">
+					<img class="uk-width-2-3" src="images/logo.svg" uk-svg/>
+				</div>
+				<div class="uk-hidden@m uk-position-center">
+					<img class="uk-width-1-1" src="images/bg-2.png" />
+				</div>
+				<div class="uk-position-large uk-position-bottom-center">
+					<!-- <div class="uk-card uk-card-default uk-card-hover uk-card-body"> -->
+						<div class="uk-h4 uk-margin-remove-bottom uk-text-center">Kepada:</div>
+						<div class="kepada uk-margin-remove-top uk-text-bold uk-text-center">Dismas Banar Purnandi</div>
+					<!-- </div> -->
+				</div>
+			</div>
+			<div class="uk-width-1-1">
+				<div class="uk-width-1-1 uk-inline uk-background-secondary" uk-height-viewport>
+					<img src="images/photo1.jpg" uk-cover />
+					<div class="uk-light uk-position-large uk-position-top">
+						<div class="date-header uk-text-center uk-text-uppercase">Sabtu, 11 November 2023</div>
+						<div class="uk-grid-small uk-flex-center uk-child-width-auto" uk-grid uk-countdown="date: 2023-11-11T09:00:00+07:00">
+							<div>
+								<div class="uk-countdown-number uk-countdown-days uk-margin-remove"></div>
+								<div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Hari</div>
+							</div>
+							<div class="uk-countdown-separator">:</div>
+							<div>
+								<div class="uk-countdown-number uk-countdown-hours uk-margin-remove"></div>
+								<div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Jam</div>
+							</div>
+							<div class="uk-countdown-separator">:</div>
+							<div>
+								<div class="uk-countdown-number uk-countdown-minutes uk-margin-remove"></div>
+								<div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Menit</div>
+							</div>
+							<div class="uk-countdown-separator">:</div>
+							<div>
+								<div class="uk-countdown-number uk-countdown-seconds uk-margin-remove"></div>
+								<div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Detik</div>
+							</div>
+						</div>
+					</div>
+					<div class="uk-position-bottom uk-height-small" style="background-image:url(images/wave-1.svg); background-size: cover; background-repeat: no-repeat;"></div>
+				</div>
+				<div class="uk-width-1-1 uk-background-secondary uk-section">
+					<div class="uk-container uk-container-small">
+						<div class="uk-h4 uk-margin-remove-bottom uk-text-center">
+							<q>Dan diantara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan diantaramu rasa kasih dan sayang. Sungguh, pada yang demikina itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir.</q>
+						</div>
+						<div class="uk-h4 uk-margin-remove-top uk-text-center">QS. Ar Ruum : 21</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+			var cover = document.getElementById('cover');
+			cover.addEventListener('wheel', closeCover);
+			cover.addEventListener('touchmove', closeCover);
+			function closeCover() {
+				UIkit.toggle(cover, {
+					animation: 'uk-animation-slide-top',
+					duration: 500
+				});
+				UIkit.toggle(cover).toggle();
+			};
+		</script>
 	</body>
 </html>
