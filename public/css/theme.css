@@ -17841,6 +17841,13 @@ video) {
 
 @media (min-width:1200px) {
     .uk-position-large {
+        margin: 100px;
+        --uk-position-margin-offset: 100px
+    }
+}
+
+@media (min-width:1920px) {
+    .uk-position-large {
         margin: 200px;
         --uk-position-margin-offset: 200px
     }
@@ -22055,19 +22062,19 @@ b)) {
     font-weight: 400;
     font-size: 50px;
     line-height: 1.5;
-    color: #fff;
+    color: #B2967D;
 }
 
 .tm-cover {
-    background-image: url(../images/bg-3.png);
-    background-size: 50%;
-    background-position: 99% 99%;
+    background-image: url(../images/cover.jpg);
+    background-size: cover;
+    background-position: bottom center;
     background-repeat: no-repeat;
 }
 
 .kepada {
     font-family: 'Abhaya Libre', serif;
-    color: #3b3d3c;
+    color: #fff;
     line-height: 1.4;
     margin: 0 0 20px 0;
     font-size: 22px;
@@ -22084,12 +22091,13 @@ b)) {
     font-family: 'Abhaya Libre', serif;
 }
 
+.tm-map {
+    width: 100%;
+}
+
 @media (min-width:768px) {
-    .tm-cover {
-        background-image: url(../images/bg-1.png), url(../images/bg-4.png);
-        background-size: 25%, 40%;
-        background-position: 25% 25%, 99% 90%;
-        background-repeat: no-repeat, no-repeat;
+    .tm-title {
+        font-size: 80px;
     }
     
     .kepada {
@@ -22098,6 +22106,16 @@ b)) {
 
     .date-header {
         font-size: 25px;
+    }
+
+    .tm-map {
+        width: 648px;
+    }
+}
+
+@media (min-width:1200px) {
+    .tm-map {
+        width: 800px;
     }
 }
 
