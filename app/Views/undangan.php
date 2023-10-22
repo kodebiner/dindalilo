@@ -239,6 +239,17 @@
 						</div>
 					</div>
 				</div>
+				<footer class="uk-section uk-section-primary uk-section-small">
+					<?php
+					function auto_copyright($year = 'auto'){
+						if(intval($year) == 'auto'){ $year = date('Y'); }
+						if(intval($year) == date('Y')){ echo intval($year); }
+						if(intval($year) < date('Y')){ echo intval($year) . ' - ' . date('Y'); }
+						if(intval($year) > date('Y')){ echo date('Y'); }
+					}
+					?>
+					<div class="uk-text-center">&copy copyright <?php auto_copyright("2023"); ?><br/><a href="binary111.com" class="uk-link-reset uk-text-bold" target="_blank">PT. Kodebiner Teknologi Indonesia</a></div>
+				</footer>
 			</div>
 		</div>
 		<div class="uk-position-small uk-position-bottom-left uk-overlay">
