@@ -29,7 +29,11 @@
 		<meta property="og:type" content="website" />
 		<meta property="og:title" content="<?= $title; ?>" />
 		<meta property="og:description" content="<?= $desc; ?>" />
+		<meta property="og:locale" content="id_ID" />
 		<meta property="og:image" content="<?=base_url()?>images/fb-square.jpg" />
+		<meta property="og:image:secure_url" content="<?=base_url()?>images/fb-square.jpg" />
+		<meta property="og:image:alt" content="Dinda & Lillo" />
+		<meta property="og:image:type" content="image/jpeg" />
 		<meta property="og:image:width" content="683px" />
 		<meta property="og:image:height" content="683px" />
 		<link rel="stylesheet" href="css/theme.css" />		
@@ -259,9 +263,9 @@
 				</footer>
 			</div>
 		</div>
-		<div class="uk-position-small uk-position-bottom-left uk-overlay">
+		<!-- <div class="uk-position-small uk-position-bottom-left uk-overlay">
 			<a class="uk-icon-button" uk-icon="play-circle" id="BGMusic" onClick="playPause()"></a>
-		</div>
+		</div> -->
 		<script>
 			// var cover = document.getElementById('cover');
 			// cover.addEventListener('wheel', closeCover);
