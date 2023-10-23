@@ -8,8 +8,9 @@ class Home extends BaseController
     {
         $gallerydir = 'images/gallery';
         $files = glob($gallerydir . "/*");
+        $data = $this->data;
         $data['title'] = 'Wedding of Dinda & Lilo';
-        $data['desc'] = '';
+        $data['desc'] = 'Dinda & Lillo akan segera menikah pada 11 November 2023.';
         $data['galleries'] = $files;
         return view('undangan', $data);
     }

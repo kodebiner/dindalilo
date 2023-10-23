@@ -25,6 +25,13 @@
 		<meta name="msapplication-TileColor" content="#ffffff">
 		<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
 		<meta name="theme-color" content="#ffffff">
+		<meta property="og:url" content="<?=$uri?>" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="<?= $title; ?>" />
+		<meta property="og:description" content="<?= $desc; ?>" />
+		<meta property="og:image" content="<?=base_url()?>images/fb-square.jpg" />
+		<meta property="og:image:width" content="683px" />
+		<meta property="og:image:height" content="683px" />
 		<link rel="stylesheet" href="css/theme.css" />		
 		<script src="js/core.min.js"></script>		
 		<script src="js/uikit.min.js"></script>
