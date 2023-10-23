@@ -87,7 +87,7 @@
 						<div class="uk-h4 uk-margin-remove-top uk-text-center">QS. Ar Ruum : 21</div>
 					</div>
 					<div class="uk-margin-large uk-container uk-container-large">
-						<div class="uk-width-1-1 uk-child-width-1-3@m uk-flex-around" uk-grid>
+						<div class="uk-position-relative uk-child-width-1-3@m uk-flex-around" uk-grid>
 							<div uk-scrollspy="cls: uk-animation-slide-left; delay: 1000">
 								<img class="uk-width-1-1" src="images/dinda.png" alt="Dinda" title="Dinda" />
 								<div class="tm-title uk-text-center">~ Dinda ~</div>
