@@ -51,7 +51,7 @@
 				<div class="uk-position-large uk-position-bottom-center">
 					<!-- <div class="uk-card uk-card-default uk-card-hover uk-card-body"> -->
 						<div class="uk-light uk-h4 uk-margin-remove-bottom uk-text-center">Kepada:</div>
-						<div class="uk-light kepada uk-margin-remove-top uk-text-bold uk-text-center">Dismas Banar Purnandi</div>
+						<div class="uk-light kepada uk-margin-remove-top uk-text-bold uk-text-center"><?=$guest['name']?></div>
 						<div class="uk-text-center">
 							<button class="uk-button uk-button-primary" type="button" uk-toggle="target: #cover; animation: uk-animation-slide-top; duration: 500;" style="border-radius: 5px;" id="BGMusic" onclick="playPause()">
 								<audio src="music/bg.mp3" autoplay loop></audio>

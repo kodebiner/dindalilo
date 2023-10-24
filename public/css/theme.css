@@ -10807,7 +10807,7 @@ a.uk-link-reset {
 .uk-table-divider>:first-child>tr:not(:first-child),
 .uk-table-divider>:not(:first-child)>tr,
 .uk-table-divider>tr:not(:first-child) {
-    border-top: 1px solid #eee
+    border-top: 1px solid #5c5e5d
 }
 
 .uk-table-striped tbody tr:nth-of-type(odd),
@@ -22121,6 +22121,10 @@ b)) {
 
 .tm-handwrite {
     font-family: 'Great Vibes', cursive;
+}
+
+.tm-main {
+    overflow-y: hidden;
 }
 
 ::-webkit-scrollbar {

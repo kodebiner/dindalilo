@@ -7,7 +7,6 @@ use Myth\Auth\Config\Auth as AuthConfig;
  * @var RouteCollection $routes
  */
 $routes->get('/', 'Home::index');
-$routes->get('guestlist', 'Home::guestlist', ['filter' => 'login']);
 
 // Myth:Auth routes file.
 $routes->group('', static function ($routes) {
@@ -33,4 +32,11 @@ $routes->group('', static function ($routes) {
     $routes->post($reservedRoutes['forgot'], 'Auth::attemptForgot');
     $routes->get($reservedRoutes['reset-password'], 'Auth::resetPassword', ['as' => 'reset-password']);
     $routes->post($reservedRoutes['reset-password'], 'Auth::attemptReset');
+});
+
+$routes->group('guestlist', ['filter' => 'login'], function($routes) {
+    $routes->get('', 'Home::guestlist');
+    $routes->post('send', 'Home::send');
+    $routes->post('new', 'Home::addguest');
+    $routes->post('edit', 'Home::editguest');
 });
