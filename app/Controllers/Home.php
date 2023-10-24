@@ -4,7 +4,7 @@ namespace App\Controllers;
 
 class Home extends BaseController
 {
-    public function index(): string
+    public function index()
     {
         $gallerydir = 'images/gallery';
         $files = glob($gallerydir . "/*");
@@ -13,5 +13,10 @@ class Home extends BaseController
         $data['desc'] = 'Dinda & Lillo akan segera menikah pada 11 November 2023.';
         $data['galleries'] = $files;
         return view('undangan', $data);
+    }
+
+    public function guestlist()
+    {
+        phpinfo( );
     }
 }

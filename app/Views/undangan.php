@@ -104,8 +104,8 @@
 								<div class="tm-title uk-text-center">~ Dinda ~</div>
 								<div class="uk-h3 uk-margin-remove uk-text-center">dr. Hajar Admira Widiatninda</div>
 								<div class="uk-h5 uk-text-center uk-margin-remove">Putri dari</div>
-								<div class="uk-h4 uk-text-center uk-margin-remove">Bambang Wijanarka, S.E., M.M.</div>
-								<div class="uk-h4 uk-text-center uk-margin-remove">Ir. Supriyati</div>
+								<div class="uk-h4 uk-text-center uk-margin-remove">Bapak Bambang Wijanarka, S.E., M.M.</div>
+								<div class="uk-h4 uk-text-center uk-margin-remove">Ibu Ir. Supriyati</div>
 								<div class="uk-margin uk-child-width-1-4 uk-flex-center" uk-grid>
 									<div class="uk-text-center">
 										<a>
@@ -129,8 +129,8 @@
 								<div class="tm-title uk-text-center">~ Lillo ~</div>
 								<div class="uk-h3 uk-margin-remove uk-text-center">Lillo Adhiguno, S.H., M.Kn.</div>
 								<div class="uk-h5 uk-text-center uk-margin-remove">Putra dari</div>
-								<div class="uk-h4 uk-text-center uk-margin-remove">Muhun Nugraha, S.H., M. Hum.</div>
-								<div class="uk-h4 uk-text-center uk-margin-remove">dr. Titi Endarty</div>
+								<div class="uk-h4 uk-text-center uk-margin-remove">Bapak Muhun Nugraha, S.H., M. Hum.</div>
+								<div class="uk-h4 uk-text-center uk-margin-remove">Ibu dr. Titi Endarty</div>
 								<div class="uk-margin uk-child-width-1-4 uk-flex-center" uk-grid>
 									<div class="uk-text-center">
 										<a>

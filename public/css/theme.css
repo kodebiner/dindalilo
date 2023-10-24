@@ -11518,12 +11518,12 @@ legend {
 
 @media (min-width:960px) {
     .uk-form-horizontal .uk-form-label {
-        width: 200px;
+        width: 150px;
         margin-top: 7px;
         float: left
     }
     .uk-form-horizontal .uk-form-controls {
-        margin-left: 215px
+        margin-left: 150px
     }
     .uk-form-horizontal .uk-form-controls-text {
         padding-top: 7px
