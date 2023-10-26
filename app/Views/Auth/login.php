@@ -47,6 +47,14 @@
             <div class="uk-flex uk-flex-center">
                 <button class="uk-button uk-button-primary" type="submit"><?=lang('Auth.loginTitle')?></button>
             </div>
+            <?php if (($config->allowRegistration) || ($config->activeResetter)) : ?>
+                <?php if ($config->allowRegistration) : ?>
+                    <div class="uk-margin-small"><a href="<?= url_to('register') ?>"><?=lang('Auth.needAnAccount')?></a></div>
+                <?php endif; ?>
+                <?php if ($config->activeResetter): ?>
+                    <div class="uk-margin-small"><a href="<?= url_to('forgot') ?>"><?=lang('Auth.forgotYourPassword')?></a></div>
+                <?php endif; ?>
+            <?php endif; ?>
         </div>
     </form>
 </div>
