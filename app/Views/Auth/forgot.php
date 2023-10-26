@@ -4,7 +4,7 @@
     <?= view('Views/Auth/_message_block') ?>
 </div>
 <div class="uk-width-1-1 uk-width-auto@m uk-card uk-card-default">
-    <form class="uk-form-horizontal" action="<?= url_to('forgot') ?>" method="post">
+    <form action="<?= url_to('forgot') ?>" method="post">
         <div class="uk-card-body">
             <p><?=lang('Auth.enterEmailForInstructions')?></p>
             <?= csrf_field() ?>

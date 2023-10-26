@@ -7,7 +7,7 @@
     <div class="uk-card-header">
         <h3 class="uk-text-uppercase uk-text-center"><?=lang('Auth.register')?></h3>
     </div>
-    <form class="uk-form-horizontal" action="<?= url_to('register') ?>" method="post">
+    <form action="<?= url_to('register') ?>" method="post">
         <div class="uk-card-body">
             <?= csrf_field() ?>
             <div class="uk-margin uk-margin-remove-top">
