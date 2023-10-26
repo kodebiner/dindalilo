@@ -3,7 +3,7 @@
 <div class="uk-width-1-1 uk-flex uk-flex-center">
     <?= view('Views/Auth/_message_block') ?>
 </div>
-<div class="uk-width-1-1 uk-width-auto@m uk-card uk-card-default">
+<div class="uk-width-1-1 uk-card uk-card-default">
     <form action="<?= url_to('forgot') ?>" method="post">
         <div class="uk-card-body">
             <p><?=lang('Auth.enterEmailForInstructions')?></p>

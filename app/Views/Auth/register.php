@@ -2,8 +2,8 @@
 <?= $this->section('main') ?>
 <div class="uk-width-1-1 uk-flex uk-flex-center">
     <?= view('Views/Auth/_message_block') ?>
-</div>
-<div class="uk-width-1-1 uk-width-auto@m uk-card uk-card-default">
+</div class="uk-width-1-3@m">
+<div class="uk-width-1-1 uk-card uk-card-default">
     <div class="uk-card-header">
         <h3 class="uk-text-uppercase uk-text-center"><?=lang('Auth.register')?></h3>
     </div>

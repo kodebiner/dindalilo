@@ -35,7 +35,7 @@
 <body>
     <div class="uk-width-1-1 uk-background-secondary" uk-height-viewport>
         <main class="uk-width-1-1 uk-flex uk-flex-middle uk-flex-center" role="main" uk-height-viewport="offset-bottom: true">
-            <div>
+            <div class="uk-width-1-3@m">
                 <?= $this->renderSection('main') ?>
             </div>
         </main>
