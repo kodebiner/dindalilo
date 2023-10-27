@@ -64,7 +64,7 @@
 			<div class="uk-width-1-1">
 				<div class="uk-width-1-1 uk-inline uk-background-secondary" uk-height-viewport>
 					<img src="images/header.jpg" uk-cover />
-					<div class="uk-light uk-position-large uk-position-top">
+					<!-- <div class="uk-light uk-position-large uk-position-top">
 						<div class="date-header uk-text-center uk-text-uppercase">Sabtu, 11 November 2023</div>
 						<div class="uk-grid-small uk-flex-center uk-child-width-auto" uk-grid uk-countdown="date: 2023-11-11T09:00:00+07:00">
 							<div>
@@ -87,25 +87,57 @@
 								<div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Detik</div>
 							</div>
 						</div>
+					</div> -->
+					<div class="uk-position-large uk-position-top-center uk-text-center uk-margin-medium-top">
+						<div class="uk-width-1-1 uk-h1 tm-handwrite uk-light">The Wedding of</div>
+						<img class="uk-width-2-3" src="images/logo.svg" uk-svg/>
 					</div>
 					<div class="uk-position-bottom uk-height-small" style="background-image:url(images/wave-1.svg); background-size: cover; background-repeat: no-repeat;"></div>
 				</div>
 				<div class="uk-width-1-1 uk-background-secondary uk-section">
-					<div class="uk-margin-large uk-container uk-container-small">
+					<div class="uk-margin-large uk-container uk-container-small uk-margin-medium-bottom">
 						<div class="uk-h4 uk-margin-remove-bottom uk-text-center">
 							<q>Dan diantara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan diantaramu rasa kasih dan sayang. Sungguh, pada yang demikina itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir.</q>
 						</div>
-						<div class="uk-h4 uk-margin-remove-top uk-text-center">QS. Ar Ruum : 21</div>
+						<div class="uk-h3 uk-margin-remove-top uk-text-center">QS. Ar Ruum : 21</div>
+					</div>
+					<div class="uk-margin uk-container uk-container-small">
+						<p class="uk-h3 uk-text-center uk-margin-remove"><em>Assalamualaikum Warahmatullahi Wabarakatuh.</em></p>
+						<p class="uk-h4 uk-text-center uk-margin-remove">Dengan memohon Rahmat dan Ridho Allah SWT, kami mengharap doa restu dan kehadiran Bapak/Ibu/Saudara pada acara pernikahan kami.</p>
+					</div>
+					<div class="uk-margin uk-container uk-container-large">
+						<div class="date-header uk-text-center uk-text-uppercase">Sabtu, 11 November 2023</div>
+						<div class="uk-grid-small uk-flex-center uk-child-width-auto" uk-grid uk-countdown="date: 2023-11-11T09:00:00+07:00">
+							<div>
+								<div class="uk-countdown-number uk-countdown-days uk-margin-remove"></div>
+								<div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s uk-text-emphasis">Hari</div>
+							</div>
+							<div class="uk-countdown-separator">:</div>
+							<div>
+								<div class="uk-countdown-number uk-countdown-hours uk-margin-remove"></div>
+								<div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s uk-text-emphasis">Jam</div>
+							</div>
+							<div class="uk-countdown-separator">:</div>
+							<div>
+								<div class="uk-countdown-number uk-countdown-minutes uk-margin-remove"></div>
+								<div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s uk-text-emphasis">Menit</div>
+							</div>
+							<div class="uk-countdown-separator">:</div>
+							<div>
+								<div class="uk-countdown-number uk-countdown-seconds uk-margin-remove"></div>
+								<div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s uk-text-emphasis">Detik</div>
+							</div>
+						</div>
 					</div>
 					<div class="uk-margin-large uk-container uk-container-large">
 						<div class="uk-position-relative uk-child-width-1-3@m uk-flex-around" uk-grid>
-							<div uk-scrollspy="cls: uk-animation-slide-left; delay: 1000">
-								<img class="uk-width-1-1" src="images/dinda.png" alt="Dinda" title="Dinda" />
-								<div class="tm-title uk-text-center">~ Dinda ~</div>
-								<div class="uk-h3 uk-margin-remove uk-text-center">dr. Hajar Admira Widiatninda</div>
-								<div class="uk-h5 uk-text-center uk-margin-remove">Putri dari</div>
-								<div class="uk-h4 uk-text-center uk-margin-remove">Bapak Bambang Wijanarka, S.E., M.M.</div>
-								<div class="uk-h4 uk-text-center uk-margin-remove">Ibu Ir. Supriyati</div>
+							<div uk-scrollspy="cls: uk-animation-slide-right; delay: 1000">
+								<img class="uk-width-1-1" src="images/lillo.png" alt="Lillo" title="Lillo" />
+								<div class="tm-title uk-text-center">~ Lillo ~</div>
+								<div class="uk-h3 uk-margin-remove uk-text-center">Lillo Adhiguno, S.H., M.Kn.</div>
+								<div class="uk-h5 uk-text-center uk-margin-remove">Putra dari</div>
+								<div class="uk-h4 uk-text-center uk-margin-remove">Bapak Muhun Nugraha, S.H., M. Hum.</div>
+								<div class="uk-h4 uk-text-center uk-margin-remove">Ibu dr. Titi Endarty</div>
 								<div class="uk-margin uk-child-width-1-4 uk-flex-center" uk-grid>
 									<div class="uk-text-center">
 										<a>
@@ -124,13 +156,13 @@
 									</div>
 								</div>
 							</div>
-							<div uk-scrollspy="cls: uk-animation-slide-right; delay: 1000">
-								<img class="uk-width-1-1" src="images/lillo.png" alt="Lillo" title="Lillo" />
-								<div class="tm-title uk-text-center">~ Lillo ~</div>
-								<div class="uk-h3 uk-margin-remove uk-text-center">Lillo Adhiguno, S.H., M.Kn.</div>
-								<div class="uk-h5 uk-text-center uk-margin-remove">Putra dari</div>
-								<div class="uk-h4 uk-text-center uk-margin-remove">Bapak Muhun Nugraha, S.H., M. Hum.</div>
-								<div class="uk-h4 uk-text-center uk-margin-remove">Ibu dr. Titi Endarty</div>
+							<div uk-scrollspy="cls: uk-animation-slide-left; delay: 1000">
+								<img class="uk-width-1-1" src="images/dinda.png" alt="Dinda" title="Dinda" />
+								<div class="tm-title uk-text-center">~ Dinda ~</div>
+								<div class="uk-h3 uk-margin-remove uk-text-center">dr. Hajar Admira Widiatninda</div>
+								<div class="uk-h5 uk-text-center uk-margin-remove">Putri dari</div>
+								<div class="uk-h4 uk-text-center uk-margin-remove">Bapak Bambang Wijanarka, S.E., M.M.</div>
+								<div class="uk-h4 uk-text-center uk-margin-remove">Ibu Ir. Supriyati</div>
 								<div class="uk-margin uk-child-width-1-4 uk-flex-center" uk-grid>
 									<div class="uk-text-center">
 										<a>

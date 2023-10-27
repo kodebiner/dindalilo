@@ -34,7 +34,7 @@ $routes->group('', static function ($routes) {
     $routes->post($reservedRoutes['reset-password'], 'Auth::attemptReset');
 });
 
-$routes->group('guestlist', ['filter' => 'login'], function($routes) {
+$routes->group('guestlist', function($routes) {
     $routes->get('', 'Home::guestlist');
     $routes->post('send', 'Home::send');
     $routes->post('new', 'Home::addguest');
