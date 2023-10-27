@@ -31,11 +31,11 @@
 		<meta property="og:description" content="<?= $desc; ?>" />
 		<meta property="og:locale" content="id_ID" />
 		<meta property="og:image" content="<?=base_url()?>images/fb-square.jpg" />
-		<meta property="og:image:secure_url" content="<?=base_url()?>images/fb-square.jpg" />
+		<meta property="og:image:secure_url" content="<?=base_url()?>images/fb-share.jpg" />
 		<meta property="og:image:alt" content="Dinda & Lillo" />
 		<meta property="og:image:type" content="image/jpeg" />
-		<meta property="og:image:width" content="683px" />
-		<meta property="og:image:height" content="683px" />
+		<meta property="og:image:width" content="700px" />
+		<meta property="og:image:height" content="470px" />
 		<link rel="stylesheet" href="css/theme.css" />		
 		<script src="js/core.min.js"></script>		
 		<script src="js/uikit.min.js"></script>
