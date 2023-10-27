@@ -43,11 +43,11 @@
                                 <div>
                                     <a href="#guest-<?= $guest['id'] ?>" uk-icon="file-edit" uk-toggle></a>
                                 </div>
-                                <?php if ($guest['status'] === '0') { ?>
+                                <?php //if ($guest['status'] === '0') { ?>
                                 <div id="whatsapp<?= $guest['id'] ?>">
                                     <a id="send<?= $guest['id'] ?>" target="_blank" uk-icon="whatsapp"></a>
                                 </div>
-                                <?php } ?>
+                                <?php //} ?>
                             </div>
                         </td>
                     </tr>
@@ -63,7 +63,7 @@
                                 success: function(response) {
                                     console.log(response);
                                     window.open("https://wa.me/<?= $guest['country_code'].$guest['phone'] ?>?text=https%3A%2F%2Fdindalillo.binary111.com%2F%3Finvitationid%3D<?=$guest['tamu_id']?>");
-                                    document.getElementById('whatsapp<?= $guest['id'] ?>').remove();
+                                    // document.getElementById('whatsapp<?= $guest['id'] ?>').remove();
                                     document.getElementById('status<?= $guest['id'] ?>').removeAttribute('style');
                                     document.getElementById('status<?= $guest['id'] ?>').setAttribute('style', 'background-color:#1dcf17; color: #000;');
                                     document.getElementById('status<?= $guest['id'] ?>').innerHTML = 'Sudah Dikirim';
