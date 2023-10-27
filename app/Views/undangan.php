@@ -30,7 +30,7 @@
 		<meta property="og:title" content="<?= $title; ?>" />
 		<meta property="og:description" content="<?= $desc; ?>" />
 		<meta property="og:locale" content="id_ID" />
-		<meta property="og:image" content="<?=base_url()?>images/fb-square.jpg" />
+		<meta property="og:image" content="<?=base_url()?>images/fb-share.jpg" />
 		<meta property="og:image:secure_url" content="<?=base_url()?>images/fb-share.jpg" />
 		<meta property="og:image:alt" content="Dinda & Lillo" />
 		<meta property="og:image:type" content="image/jpeg" />
