@@ -11,7 +11,7 @@ class Home extends BaseController
         $GuestModel = new GuestModel();
         $input = $this->request->getGet('invitationid');
 
-        // if (isset($input)) {
+        if (isset($input)) {
             $guest = $GuestModel->where('tamu_id', $input)->first();
             $gallerydir = 'images/gallery';
             $files = glob($gallerydir . "/*");
@@ -21,9 +21,9 @@ class Home extends BaseController
             $data['galleries'] = $files;
             $data['guest'] = $guest;
             return view('undangan', $data);
-        // } else {
-        //     throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
-        // }
+        } else {
+            throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
+        }
     }
 
     public function guestlist()
