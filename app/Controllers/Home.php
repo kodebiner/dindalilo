@@ -91,4 +91,11 @@ class Home extends BaseController
 
         return redirect()->back()->with('message', 'Undangan berhasil dirubah.');
     }
+
+    public function show404() {
+        $data = $this->data;
+        $data['title'] = '404';
+        $data['description'] = lang('Errors.sorryCannotFind');
+        return view('errors/404', $data);
+    }
 }

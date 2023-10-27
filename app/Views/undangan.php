@@ -132,7 +132,7 @@
 					<div class="uk-margin-large uk-container uk-container-large">
 						<div class="uk-position-relative uk-child-width-1-3@m uk-flex-around" uk-grid>
 							<div uk-scrollspy="cls: uk-animation-slide-right; delay: 1000">
-								<img class="uk-width-1-1" src="images/lillo.png" alt="Lillo" title="Lillo" />
+								<img class="uk-width-1-1" src="images/lillo-profile.png" alt="Lillo" title="Lillo" />
 								<div class="tm-title uk-text-center">~ Lillo ~</div>
 								<div class="uk-h3 uk-margin-remove uk-text-center">Lillo Adhiguno, S.H., M.Kn.</div>
 								<div class="uk-h5 uk-text-center uk-margin-remove">Putra dari</div>
@@ -157,7 +157,7 @@
 								</div>
 							</div>
 							<div uk-scrollspy="cls: uk-animation-slide-left; delay: 1000">
-								<img class="uk-width-1-1" src="images/dinda.png" alt="Dinda" title="Dinda" />
+								<img class="uk-width-1-1" src="images/dinda-profile.png" alt="Dinda" title="Dinda" />
 								<div class="tm-title uk-text-center">~ Dinda ~</div>
 								<div class="uk-h3 uk-margin-remove uk-text-center">dr. Hajar Admira Widiatninda</div>
 								<div class="uk-h5 uk-text-center uk-margin-remove">Putri dari</div>

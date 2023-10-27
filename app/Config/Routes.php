@@ -6,6 +6,11 @@ use Myth\Auth\Config\Auth as AuthConfig;
 /**
  * @var RouteCollection $routes
  */
+
+$routes->set404Override(static function () {
+    echo view('errors/404');
+});
+
 $routes->get('/', 'Home::index');
 
 // Myth:Auth routes file.
