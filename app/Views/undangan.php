@@ -134,11 +134,12 @@
 							<div uk-scrollspy="cls: uk-animation-slide-right; delay: 1000">
 								<img class="uk-width-1-1" src="images/lillo-profile.png" alt="Lillo" title="Lillo" />
 								<div class="tm-title uk-text-center">~ Lillo ~</div>
+								<div class="uk-text-center"><a href="https://www.instagram.com/lilloadhgn" target="_blank"><span uk-icon="instagram"></span> @lilloadhgn</a></div>
 								<div class="uk-h3 uk-margin-remove uk-text-center">Lillo Adhiguno, S.H., M.Kn.</div>
 								<div class="uk-h5 uk-text-center uk-margin-remove">Putra dari</div>
 								<div class="uk-h4 uk-text-center uk-margin-remove">Bapak Muhun Nugraha, S.H., M. Hum.</div>
 								<div class="uk-h4 uk-text-center uk-margin-remove">Ibu dr. Titi Endarty</div>
-								<div class="uk-margin uk-child-width-1-4 uk-flex-center" uk-grid>
+								<!-- <div class="uk-margin uk-child-width-1-4 uk-flex-center" uk-grid>
 									<div class="uk-text-center">
 										<a>
 											<img class="uk-width-1-1" src="images/instagram.svg" uk-svg />
@@ -154,16 +155,17 @@
 											<img class="uk-width-1-1" src="images/x.svg" uk-svg />
 										</a>
 									</div>
-								</div>
+								</div> -->
 							</div>
 							<div uk-scrollspy="cls: uk-animation-slide-left; delay: 1000">
 								<img class="uk-width-1-1" src="images/dinda-profile.png" alt="Dinda" title="Dinda" />
 								<div class="tm-title uk-text-center">~ Dinda ~</div>
+								<div class="uk-text-center"><a href="https://www.instagram.com/dindaadmira" target="_blank"><span uk-icon="instagram"></span> @dindaadmira</a></div>
 								<div class="uk-h3 uk-margin-remove uk-text-center">dr. Hajar Admira Widiatninda</div>
 								<div class="uk-h5 uk-text-center uk-margin-remove">Putri dari</div>
 								<div class="uk-h4 uk-text-center uk-margin-remove">Bapak Bambang Wijanarka, S.E., M.M.</div>
 								<div class="uk-h4 uk-text-center uk-margin-remove">Ibu Ir. Supriyati</div>
-								<div class="uk-margin uk-child-width-1-4 uk-flex-center" uk-grid>
+								<!-- <div class="uk-margin uk-child-width-1-4 uk-flex-center" uk-grid>
 									<div class="uk-text-center">
 										<a>
 											<img class="uk-width-1-1" src="images/instagram.svg" uk-svg />
@@ -179,7 +181,7 @@
 											<img class="uk-width-1-1" src="images/x.svg" uk-svg />
 										</a>
 									</div>
-								</div>
+								</div> -->
 							</div>
 						</div>
 					</div>
