@@ -54,7 +54,7 @@
 						<div class="uk-light kepada uk-margin-remove-top uk-text-bold uk-text-center"><?=$guest['name']?></div>
 						<div class="uk-text-center">
 							<button class="uk-button uk-button-primary" type="button" uk-toggle="target: #cover; animation: uk-animation-slide-top; duration: 500;" style="border-radius: 5px;" id="BGMusic" onclick="playPause()">
-								<audio src="music/bg.mp3" autoplay loop></audio>
+								<audio src="music/Perfect.mp3" autoplay loop></audio>
 								Buka Undangan
 							</button>
 						</div>
@@ -97,9 +97,9 @@
 				<div class="uk-width-1-1 uk-background-secondary uk-section">
 					<div class="uk-margin-large uk-container uk-container-small uk-margin-medium-bottom">
 						<div class="uk-h4 uk-margin-remove-bottom uk-text-center">
-							<q>Dan diantara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan diantaramu rasa kasih dan sayang. Sungguh, pada yang demikina itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir.</q>
+							<q>Dan diantara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan diantaramu rasa kasih dan sayang. Sungguh, pada yang demikian itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir.</q>
 						</div>
-						<div class="uk-h3 uk-margin-remove-top uk-text-center">QS. Ar Ruum : 21</div>
+						<div class="uk-h3 uk-margin-remove-top uk-text-center">QS. Ar-Rum : 21</div>
 					</div>
 					<div class="uk-margin uk-container uk-container-small">
 						<p class="uk-h3 uk-text-center uk-margin-remove"><em>Assalamualaikum Warahmatullahi Wabarakatuh.</em></p>
